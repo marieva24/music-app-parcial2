@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Okuneva Marina DWN3A PWA</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header class="container-fluid bg1">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-bg1">
+        <a class="navbar-brand" href="index.html">
+            <h1>BeatPort</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Música</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+        
+        <section class="container bienvenido p-4">
+             <div class="row p-1 m-auto">
+                <h2 class="col-12 mb-2 p-2">Bienvenido a Beat Port</h2>
+                <p class="col-xl-9 col-lg-10 col-md-10 col-sm-12 p-1 m-0">Nuestra aplicación ofrece una amplia selección de música. Aquí vas a poder buscar por título de canción, artista o álbum. También vas a poder instalar la app en tu celular, tablet o pc.</p>
+                <div class="col-xl-4 col-md-6 col-sm-8 col-xs-8 p-0"><a href="music.html" id="buscar-home" class="d-block btn btn-primary btn-group-sm my-3 p-2">Buscar música</a>
+                </div>
+             </div>
+      </section>
+      <section id="result">
+          
+      </section>
+    </main>
+    <footer class="footer pt-3 pb-3 bg1">
+      <div class="container col-10 col-md-6 col-sm-8 m-auto my-1 ">
+                    <ul class="row text-center list-unstyled py-4">               
+                        <li class="col-4"><a class="btn-rss fb" target="_blank" href="https://www.facebook.com/">facebook</a>
+                        </li>
+                        <li class="col-4"><a class="btn-rss inst" target="_blank" href="https://www.instagram.com/">instagram</a>
+                        </li>
+                        <li class="col-4">
+                            <a class="btn-rss youtube" target="_blank" href="https://youtube.com/home">youtube</a>
+                        </li>
+                    </ul>          
+      </div>
+
+      <details class="container text-center col-8 col-md-6 col-sm-8 m-auto my-1 ">
+        <div id="alumno" class="row m-auto my-1 text-center">
+        <summary class="container list-unstyled">Datos del alumno</summary>
+        
+            <ul class="container list-unstyled py-4">   
+                <li><strong>Alumno:</strong> Okuneva Marina</li>
+                <li><strong>Carrera:</strong> Diseño Web</li>
+                <li><strong>Materia:</strong> Aplicaciones Web Progresivas</li>
+                <li><strong>Profesor:</strong> Gonzalo Rubino</li>
+                <li><strong>Comisión:</strong> 3A; turno Noche</li>
+                <li><strong>2021 &copy;</strong></li>
+            </ul>
+        </div>
+      </details>
+    
+    </footer>
+    <script src="js/register-sw.js"></script>
+    <script src="js/music-port.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--my script-->
+  </body>
+</html>
